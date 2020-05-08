@@ -21,8 +21,5 @@ for i in alist2:
 print("going to find hw many times a string occurs in a string ")
 print(randomstring.count("python"))
 # going to find a particular string inside a string 
-print(randomstring.find("python"))
-
-
-
-
+print(randomstring.find("python"))# only going to return the index value
+print(randomstring.replace("python","java"))
