@@ -6,7 +6,8 @@ print(len(array))
 
 for i in range(len(array)):
     for j in range(len(array)):
-        array[i][j]="{} : {}".format(i,j)
+        if(i==j):
+             array[i][j]="{} : {}".format(i,j)
 print(array)
 
 for i in range(len(array)):
@@ -14,6 +15,7 @@ for i in range(len(array)):
             print(array[i][j],end="||")
         print()
 
+print(array)
 
 
 
