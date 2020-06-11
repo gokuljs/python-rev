@@ -8,3 +8,30 @@
 
 class dog:
     #  class is a template which is used to create objects 
+    def __init__(self,name="",height=0,weight=0):
+        #  normally when u create a dog u will intialize its name etc inside init method
+        # self just allows an object to refer to itself like my height etc
+        self.name=name
+        self.height=height
+        self.weight=weight
+
+    def run(self):
+        print("{} the dog runs".format(self.name))
+
+    def eat(self):
+        print("{} the dog eats ".format(self.name))
+    
+    def bark(self):
+        print("{} the dog barks ".format(self.name))
+
+
+def main():
+    spot=dog("spokke",24,30)
+    spot.bark()
+    spot.eat()
+
+    bowser=dog()
+    bowser.bark()
+
+
+main()
