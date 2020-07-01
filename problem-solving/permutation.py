@@ -10,6 +10,10 @@ def permutation(a,l,r): #[a,b,c].0,2
         print("a",a)
         print("l",l)
         print("r",r)
+        # [a,b,c]
+        # l=0
+        # r=2
+        
         permutation(a,l+1,r)# [a,b,c],1,4
         print("a",a)
         print("l",l)
@@ -21,4 +25,7 @@ n=len(message) #a,b,c
 print(n) #3
 a=list(message) #[a,b,c]
 print(a) 
+
+#3
+#['a', 'b', 'c']
 permutation(a,0,n-1)
