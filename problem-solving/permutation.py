@@ -10,11 +10,9 @@ def permutation(a,l,r): #[a,b,c].0,2
         print("a",a)
         print("l",l)
         print("r",r)
-        # [a,b,c]
-        # l=0
-        # r=2
-        
+        # [a,b,c] l=0 r=2.
         permutation(a,l+1,r)# [a,b,c],1,4
+        # [a,b,c] l=1 r=2
         print("a",a)
         print("l",l)
         print("r",r)
