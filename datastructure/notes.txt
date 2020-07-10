@@ -1,0 +1,5 @@
+efficiency of code is told by big O(n) notation is used 
+inside parathensis some algebrix expression related to n is written 
+example
+        O(n),O(n^2),O(log(n))  .... etc
+        
