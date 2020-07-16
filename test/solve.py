@@ -4,7 +4,7 @@ list=['a','e','i','o','u']
 consonant=0
 vowel=0
 for i in string:
-    if i in list:
+    if i not in list:
         consonant=consonant+1
     else:
         vowel=vowel+1
