@@ -1,1 +1,2 @@
-# solving dictonaries related problem
+arr=list(map(int,input().strip().split(" ")))
+print(arr)
