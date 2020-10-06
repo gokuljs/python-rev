@@ -8,9 +8,8 @@ def permutate(a,l,r):
             a[l], a[i] = a[i], a[l] 
             permutate(a, l+1, r) 
             a[l], a[i] = a[i], a[l]
-string=input("enter your string")
+string=input("enter your string") 
 n=len(string)
 a=list(string)
 print(a)
-# print(permutate(a))
 permutate(a,0,n-1)
