@@ -1,9 +1,9 @@
 # converting binary to decimal number 
-k=int(input("enter the decimal number"))
-rev=0
-i=0
-# //cyclic rotation of binary numbers 
 
+k=input("enter the decimal number")
+i=0
+k=int(k)
+rev=0
 while(k>0):
     dig=k%10
     rev=rev+dig*pow(2,i)
