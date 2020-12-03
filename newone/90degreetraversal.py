@@ -19,9 +19,7 @@ for i in range(col):
         high=high-1
 print(arr)
 print(temp)
-for i in range(100):
-    print(arr)
-    print(temp)
+
 # print(temp)
 # for i in range(row):
 #     for j in range(col):
